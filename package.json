@@ -1,13 +1,14 @@
 {
-  "name": "body-parser",
+  "name": "body-parser-simdjson",
   "description": "Node.js body parsing middleware",
-  "version": "1.19.0",
+  "version": "0.0.1",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    "Aayush"
   ],
   "license": "MIT",
-  "repository": "expressjs/body-parser",
+  "repository": "aayush-sib/body-parser-simdjson",
   "dependencies": {
     "bytes": "3.1.0",
     "content-type": "~1.0.4",
@@ -18,6 +19,7 @@
     "on-finished": "~2.3.0",
     "qs": "6.9.3",
     "raw-body": "2.4.1",
+    "simdjson": "^0.5.0",
     "type-is": "~1.6.18"
   },
   "devDependencies": {
